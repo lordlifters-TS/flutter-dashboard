@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class AddHealthRecordScreen extends StatelessWidget {
+  const AddHealthRecordScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Add Health Record')),
+      body: const Center(
+        child: Text('Add Health Record Form'),
+      ),
+    );
+  }
+}
